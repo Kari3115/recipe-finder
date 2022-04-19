@@ -91,7 +91,7 @@ function insertRecipe(mode) {
     "name": name,
     "ingredients": ingredients,
     "directions": directions,
-    "by": by
+    "by": localStorage.getItem("username")
   }
 
   if (mode == "Update") {
